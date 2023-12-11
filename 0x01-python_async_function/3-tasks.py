@@ -3,13 +3,12 @@
 Tasks
 """
 import asyncio
-from typing import List
 
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-def task_wait_random(max_delay: int) -> object:
-    """Returns Task obj
+def task_wait_random(max_delay: int) -> asyncio.Task:
+    """Create & returns the asyncio.Task of an asychronous function
     """
     # Create Task object for coroutine
     return asyncio.create_task(wait_random(max_delay))
