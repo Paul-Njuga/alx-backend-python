@@ -6,6 +6,7 @@ import asyncio
 import random
 from typing import Generator
 
+
 async def async_generator() -> Generator[float, None, None]:
     """Yields a random num btn 0 & 10, 10 times
     """
