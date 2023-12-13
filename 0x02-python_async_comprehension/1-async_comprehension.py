@@ -2,7 +2,6 @@
 """
 Async Comprehensions
 """
-import asyncio
 from typing import List
 
 async_gen = __import__('0-async_generator').async_generator
