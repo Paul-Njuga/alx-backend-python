@@ -31,6 +31,7 @@ class TestAccessNestedMap(TestCase):
             access_nested_map(map, path)
             self.assertEqual(wrong_output, e.exception)
 
+
 class TestGetJson(TestCase):
     """Test class for get_json func"""
     # order of args: test_url, test_payload
