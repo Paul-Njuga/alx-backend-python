@@ -4,6 +4,7 @@ Unittest module
 """
 import client
 from client import GithubOrgClient
+from typing import Dict
 from parameterized import parameterized
 from unittest import TestCase, mock
 from unittest.mock import patch, Mock, MagicMock, PropertyMock
