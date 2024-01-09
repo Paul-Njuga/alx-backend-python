@@ -4,7 +4,7 @@ Unittest module
 """
 from parameterized import parameterized
 from utils import access_nested_map
-from unittest import Testcase, mock
+from unittest import TestCase, mock
 from unittest.mock import patch, Mock
 
 
